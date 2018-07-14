@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".sciencemus"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/t3"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National Science Center"
+            android:textStyle="bold|italic"
+            android:textSize="25sp"
+            android:textColor="#f00"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="Bhairon Marg, near Pragati Maidan Gate No. 1,
+New Delhi. Ph.: 23371893, 23371945
+Timing : 10:00 am to 5.00 pm.
+Closed : Holi AND Diwali only
+Constructed in 8 floors, this museum houses working science exhibition as well as exhibits on the history of architecture.
+It has various sections for all age groups such as Heritage and Dinosaur gallery, Human Biology gallery, Fun Science Library etc.
+There are also a number of hands-on displays explaining the laws of physics. The Cyberlkool of this museum is the first fun-packed multimedia centre in the country.
+At least a whole day is required to go through this children's paradise.
+"/>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

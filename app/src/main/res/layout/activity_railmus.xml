@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".railmus"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:src="@drawable/t4"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="National Rail Museum"
+                android:textStyle="bold|italic"
+                android:textSize="25sp"
+                android:textColor="#f00"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Chanakyapuri, New Delhi. Ph.: 26881816, 26880939
+Timing : 9:30 am to 5:30 pm.
+Closed : Monday
+This unique museum has a fascinating and exotic collection of over 100 real size exhibits of Indian Railways.
+Static and working models, signaling equipments, antique furnitures, historical photographs and related literature etc. are displayed in the museum.
+The line-up of old coaches includes the handsome Prince of Wales Saloon, built in 1875. Not to be outdone is the Maharaja of Mysore's Saloon built in 1899 with its brocade covered chairs and an elegant rosewood bed; one can peer in through the windows for a good look.
+National Rail Museum The star attraction here is the Fairy Queen, built in 1855 and considered to be one of the best preserved steam locomotive engines of her age.
+A ride in joy train and mono rail (PSMT) is the most exciting experience besides boating. Do not miss the handsome Fire Engine on your way out."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

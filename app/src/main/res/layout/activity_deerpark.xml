@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".Deerpark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/deerpark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEER PARK"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="
+Deer Park (Aditya Nath Jha Park)
+Deer Park (Hauz Khas), Delhi.jpg
+Deer Park (from inside) near stairs.
+Type	Natural Area
+Location	Hauz Khas, New Delhi
+Nearest city	Hauz Khas Village
+Coordinates	28.5566°N 77.1959°ECoordinates: 28.5566°N 77.1959°E
+Created	1295
+Operated by	Municipal Corporation of Delhi
+Open	5:00am-8:00pm (in summer), 5:30am-7:00pm (in winter)
+Status	Open
+
+Hauz Khas Jheel located inside Deer Park
+Deer Park is located in South Delhi also known as A.N. Jha Deer Park, named after famous Social worker Aditya Nath Jha. This place is popular for walking, jogging and weekend outings. The Deer Park comprises many subsection such as Duck Park, Picnic Spots Rabbit Enclosures etc. The Park has historical tombs of Mughal Era. The park is accessible from Safdarjung Enclave and Green Park,[1] Hauz Khas Village. It is also connected to District Park thus making is approachable from R K Puram near the courts side of the Delhi Lawn Tennis Association\n
+\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Safdarjung Enclave, New Delhi 110002, India"
+                android:textSize="19sp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="+91 72220 15635"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/Pcolor</item>
+        <item name="colorPrimaryDark">@color/Pdcolor</item>
+        <item name="colorAccent">@color/Acolor</item>
+    </style>
+
+</resources>

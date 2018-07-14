@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".policemus"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:src="@drawable/t2"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:textColor="#f00"
+                android:textSize="25sp"
+                android:text="National Police Museum"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="Localtion: Block No.-4, CGO complex,
+Lodi Road, New Delhi
+Timing: 10.00am To 5:00 pm
+Closed : Saturday AND Sunday
+Attractions: The world of thrill and sensation
+This museum takes us into the world of thrill and sensation as museum contains several thought provoking items all related to police, Crime and Criminals, from the ancient to the modern times.
+Exhibited items are acquired from different states and central police organizations both of Indian and Foreign Origin.
+Photography is allowed with permission. Museum has no admission fees."/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

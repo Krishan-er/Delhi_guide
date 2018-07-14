@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chandni">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/chandani"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHANDANI CHOWK"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="It is the perfect place to shop in. This densely populated market has been around for more than three centuries and was once visited by merchants from Turkey, China and even Holland. You may buy curios and souvenirs from here. Dariba Kalan is known for its pearl, gold and silver jewellery and attar (natural perfumes). Gulab Singh Johri Mal, established in 1819, are well-known manufacturers and exporters of attar. A visit to Khari Baoli is a must for the spice-lover — don't forget spices are what connected India to the West. Kinari Bazaar is the best place to look for zari and zardozi trimmings and tinsel. The cloth bazaar of Katra Neel offers all kinds of fabrics such as silks, satin, crepe, cotton and muslin. Bhagirath Palace is Asia's largest market for electrical goods and also offers medical equipment and allopathic medicines. Moti Bazaar is famous for shawls and pearls and Tilak Bazaar for chemicals.\n \n"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

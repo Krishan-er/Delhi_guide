@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firehot"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/t9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fire"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Park Hotel, Connaught Place, Central Delhi
+12:00 PM to 03:00 PM
+06:00 PM to 11:00 PM"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Features And Amenities:
+Air ConditionedWifiValet AvailableServes AlcoholParkingView all
+About Restaurant:
+Fire, located on the Ground Floor of The Park Hotel in Connaught Place, Delhi, is a fine dining restaurant with an elegant and stylish ambiance accommodated with beautiful and enigmatic hues of purple and mauve lightning...   Read more
+
+Address And Location:The Park, Lobby Level, Parliament Street, Connaught Place, Central Delhi, 110001View on Map
+Contact Dineout:+91 9212340202"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

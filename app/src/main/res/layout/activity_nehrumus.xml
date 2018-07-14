@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nehrumus"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/t5"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nehru Museum And Planetorium"
+                android:textSize="25sp"
+                android:textColor="#f00"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:text="Localtion: Teen Murti Bhavan, Teen Murti Marg, New Delhi
+Spl. School Programmes: 9:30 am to 10:30 pm.
+Additional shows on Sundays and holidays in Hindi- 10:30 am to 3:00 pm.
+Hindi Shows- 10 am to 5 pm.
+Attractions: Newspaper Clippings And Photographs From The Independence Movement.
+
+The residence of Late Jawaharlal Nehru, the first Prime Minister of India was converted into a museum after his death.
+The museum is a fascinating place to learn about the history of the Independence Movement.
+
+There are several photographs of the erstwhile Prime Minister, giving an account of his life.
+Besides this, the colonial building is also equally interesting, with its teak paneled rooms with high ceilings, spacious verandas and well kept gardens."/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

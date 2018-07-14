@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Palika">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/palika"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PALIKA BAZAR\n"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="This underground, air-conditioned market located below the inner circle of Connaught Place was set up in the late 1970s. It is especially famous for cheap electronic goods and clothes. From footwear to clothing to nightwear to perfumes to accessories to electronic gadgets to DVDs and CDs, you will get a wide range of products in this massive market. You may also buy curios and small knick-knacks to take back home as souvenirs. There are hundreds of shops in Palika Bazaar. It is estimated to have some 15,000 people within its confines at any given time and
+also attracts many foreign tourists. Although bargaining is the mantra for shopping anywhere in Delhi, it must be followed here rigorously.\n \n"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

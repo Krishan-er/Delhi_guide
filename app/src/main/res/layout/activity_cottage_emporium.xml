@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CottageEmporium">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/cottage"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COTTAGE EMPORIUM\n"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="The Cottage welcomes you to the largest store of exotic and authentic Indian crafts. Crafts that reflect a 5000-yr-old rich heritage of India. The virtual shopping mall offers some of the most beautiful handicrafts, handlooms and artifacts crafted by deft hands of master craftsmen from all across the country. We are now also bringing you travel tips when coming to visit India as a tourist. You can now apply for your Indian visa here. The consulate requires that all foreign nationals carry a valid Indian evisa. Please visit our recommended resource above to get yours taken care of.\n \n"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text=" Mr. Anant Kumar Singh, IAS (Chairman) \n
+Jawahar Vyapar Bhavan, Janpath,\n
+New Delhi, 110 001 (India)\n\n
+
+Mr. Pramod Nagpal (Managing Director)\n
+Jawahar Vyapar Bhavan, Janpath,\n
+New Delhi, 110 001 (India)\n
+Phone : +91–11- 23323825, 23730374\n
+Fax : +91-11-23328354 \n
+E-Mail : md@cottageemporium.in\n\n
+
+Mr. Rajesh Kumar, IRSS (Chief Vigilance Officer)\n
+Jawahar Vyapar Bhavan, Janpath\n
+New Delhi, 110 001 (India)\n
+Phone : +(91)-(11)-23358863 \n
+Fax : +(91)-(11)-23328354 \n
+E-Mail : cvo@cottageemporium.in"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website\n"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="http://www.cottageemporium.in/"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
