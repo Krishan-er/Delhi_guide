@@ -169,7 +169,8 @@ public class Nav extends AppCompatActivity
 
         @Override
         public int getCount() {
-            return a1.size();
+
+            return 6;
         }
     }
 }

@@ -41,23 +41,23 @@ public class Meusfrag extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0){
-                    Intent i = new Intent(getActivity(),agnihot.class);
+                    Intent i = new Intent(getActivity(),nehrumus.class);
                     startActivity(i);
                 }
                 else if(position==1){
-                    Intent i = new Intent(getActivity(),aouahot.class);
+                    Intent i = new Intent(getActivity(),policemus.class);
                     startActivity(i);
                 }
                 else if(position==2){
-                    Intent i = new Intent(getActivity(),firehot.class);
+                    Intent i = new Intent(getActivity(),railmus.class);
                     startActivity(i);
                 }
                 else if(position==3){
-                    Intent i = new Intent(getActivity(),misthot.class);
+                    Intent i = new Intent(getActivity(),sciencemus.class);
                     startActivity(i);
                 }
                 else if(position==4){
-                    Intent i = new Intent(getActivity(),onehot.class);
+                    Intent i = new Intent(getActivity(),Phil .class);
                     startActivity(i);
                 }
 
