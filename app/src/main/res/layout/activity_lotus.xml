@@ -134,7 +134,7 @@ The structure is made up of pure white marble The architect Furiburz Sabha chose
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:text="very good place ,maditating enviornment"
                     android:textColor="#005237"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
@@ -154,7 +154,7 @@ The structure is made up of pure white marble The architect Furiburz Sabha chose
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sohan Singh"
+                    android:text="Sonali Singh"
                     android:textSize="20sp"
                     android:layout_margin="16dp"
                     android:textStyle="bold"
@@ -164,7 +164,7 @@ The structure is made up of pure white marble The architect Furiburz Sabha chose
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:text="too good ,i would like to visit again"
                     android:textColor="#005237"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
@@ -184,7 +184,7 @@ The structure is made up of pure white marble The architect Furiburz Sabha chose
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sohan Singh"
+                    android:text="Swaroop Singh"
                     android:textSize="20sp"
                     android:layout_margin="16dp"
                     android:textStyle="bold"
@@ -194,7 +194,7 @@ The structure is made up of pure white marble The architect Furiburz Sabha chose
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:text="excellent place for making our mind cool and calm"
                     android:textColor="#005237"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
