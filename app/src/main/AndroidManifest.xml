@@ -52,7 +52,7 @@
         <activity android:name=".Palika" />
         <activity android:name=".Phil" />
         <activity android:name=".policemus" />
-        <activity android:name=".Splash"/>
+        <activity android:name=".Splash" />
         <activity android:name=".splsh">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,10 +67,8 @@
         <activity
             android:name=".Nav"
             android:label="@string/title_activity_nav"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity android:name=".Look"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Look" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -85,13 +83,37 @@
 
         <activity
             android:name=".test"
-            android:label="@string/title_activity_test"></activity>
-        <activity android:name=".Lotusmap"/>
-        <activity android:name=".Selectcitymap"/>
-        <activity android:name=".Nehrumusemaps"/>
-        <activity android:name=".Mishotmap"/>
-        <activity android:name=".Mughalgardenmap"/>
-        <activity android:name=".TheManor"/>
+            android:label="@string/title_activity_test" />
+        <activity android:name=".Lotusmap" />
+        <activity android:name=".Selectcitymap" />
+        <activity android:name=".Nehrumusemaps" />
+        <activity android:name=".Mishotmap" />
+        <activity android:name=".Mughalgardenmap" />
+        <activity android:name=".TheManor" />
+        <activity
+            android:name=".Agnihotmap"
+            android:label="@string/title_activity_agnihotmap" />
+        <activity
+            android:name=".Akshardhammap"
+            android:label="@string/title_activity_akshardhammap" />
+        <activity
+            android:name=".Ansalmap"
+            android:label="@string/title_activity_ansalmap" />
+        <activity
+            android:name=".aouahotmap"
+            android:label="@string/title_activity_aouahotmap" />
+        <activity
+            android:name=".Deerparkmaps"
+            android:label="@string/title_activity_deerparkmaps" />
+        <activity
+            android:name=".Dillhatmap"
+            android:label="@string/title_activity_dillhatmap" />
+        <activity
+            android:name=".Firehotmap"
+            android:label="@string/title_activity_firehotmap" />
+        <activity
+            android:name=".Inamap"
+            android:label="@string/title_activity_inamap"></activity>
     </application>
 
 </manifest>

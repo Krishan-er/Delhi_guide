@@ -25,7 +25,7 @@ public class Aksardham extends AppCompatActivity {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Aksardham.this,View.class);
+                Intent i = new Intent(Aksardham.this,Akshardhammap.class);
                 startActivity(i);
             }
         });

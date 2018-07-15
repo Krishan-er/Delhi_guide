@@ -24,7 +24,7 @@ public class agnihot extends AppCompatActivity {
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(agnihot.this, Book.class);
+                Intent i = new Intent(agnihot.this, Agnihotmap.class);
                 startActivity(i);
             }
         });

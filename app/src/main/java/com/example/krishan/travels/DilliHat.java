@@ -22,7 +22,7 @@ public class DilliHat extends AppCompatActivity {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DilliHat.this,View.class);
+                Intent i = new Intent(DilliHat.this,DilliHat.class);
                 startActivity(i);
             }
         });

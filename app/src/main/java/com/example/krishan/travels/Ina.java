@@ -20,7 +20,7 @@ public class Ina extends AppCompatActivity {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Ina.this,View.class);
+                Intent i = new Intent(Ina.this,Ina.class);
                 startActivity(i);
             }
         });

@@ -23,7 +23,7 @@ public class firehot extends AppCompatActivity {
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(firehot.this,Book.class);
+                Intent i = new Intent(firehot.this,firehot.class);
                 startActivity(i);
             }
         });

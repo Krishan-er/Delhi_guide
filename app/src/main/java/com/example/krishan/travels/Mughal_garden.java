@@ -22,7 +22,7 @@ public class Mughal_garden extends AppCompatActivity {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Mughal_garden.this,View.class);
+                Intent i = new Intent(Mughal_garden.this,Mughalgardenmap.class);
                 startActivity(i);
             }
         });

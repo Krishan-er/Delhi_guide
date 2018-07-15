@@ -12,4 +12,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_test">Map</string>
+    <string name="title_activity_agnihotmap">Map</string>
+    <string name="title_activity_akshardhammap">Map</string>
+    <string name="title_activity_ansalmap">Map</string>
+    <string name="title_activity_aouahotmap">Map</string>
+    <string name="title_activity_deerparkmaps">Map</string>
+    <string name="title_activity_dillhatmap">Map</string>
+    <string name="title_activity_firehotmap">Map</string>
+    <string name="title_activity_inamap">Map</string>
 </resources>

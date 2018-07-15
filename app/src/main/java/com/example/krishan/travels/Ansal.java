@@ -22,7 +22,7 @@ public class Ansal extends Activity {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Ansal.this,View.class);
+                Intent i = new Intent(Ansal.this,Ansalmap.class);
                 startActivity(i);
             }
         });

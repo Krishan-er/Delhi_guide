@@ -24,7 +24,7 @@ public class aouahot extends AppCompatActivity {
         book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(aouahot.this,Book.class);
+                Intent i = new Intent(aouahot.this,aouahotmap.class);
                 startActivity(i);
             }
         });

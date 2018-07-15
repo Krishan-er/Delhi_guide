@@ -22,7 +22,7 @@ public class Deerpark extends AppCompatActivity {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Deerpark.this,View.class);
+                Intent i = new Intent(Deerpark.this,Deerparkmaps.class);
                 startActivity(i);
             }
         });
