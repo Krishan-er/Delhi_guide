@@ -1,74 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="12dp"
     tools:context=".Deerpark">
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/deerpark"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="53dp"
+                android:text="DEER PARK"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="230dp"
-                android:src="@drawable/deerpark"/>
-            <TextView
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/view"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="VIEW ON MAP"
+                android:gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="32dp"
+                android:textColor="#00b349"
+                android:background="@drawable/border2"/>
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="CALL US"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="@drawable/btn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="DEER PARK"
-                android:textStyle="bold"
-                android:textSize="25sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="19sp"
-                android:text="
-Deer Park (Aditya Nath Jha Park)
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deer Park (Aditya Nath Jha Park)
 Deer Park (Hauz Khas), Delhi.jpg
 Deer Park (from inside) near stairs.
 Type	Natural Area
 Location	Hauz Khas, New Delhi
 Nearest city	Hauz Khas Village
-Coordinates	28.5566°N 77.1959°ECoordinates: 28.5566°N 77.1959°E
+Coordinates	28.5566Â°N 77.1959Â°ECoordinates: 28.5566Â°N 77.1959Â°E
 Created	1295
 Operated by	Municipal Corporation of Delhi
 Open	5:00am-8:00pm (in summer), 5:30am-7:00pm (in winter)
-Status	Open
+"
+                    android:textColor="#000"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:typeface="serif"
+                    android:textSize="16sp"/>
 
-Hauz Khas Jheel located inside Deer Park
-Deer Park is located in South Delhi also known as A.N. Jha Deer Park, named after famous Social worker Aditya Nath Jha. This place is popular for walking, jogging and weekend outings. The Deer Park comprises many subsection such as Duck Park, Picnic Spots Rabbit Enclosures etc. The Park has historical tombs of Mughal Era. The park is accessible from Safdarjung Enclave and Green Park,[1] Hauz Khas Village. It is also connected to District Park thus making is approachable from R K Puram near the courts side of the Delhi Lawn Tennis Association\n
-\n"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Address"
-                android:textSize="19sp"
-                android:textStyle="bold"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Safdarjung Enclave, New Delhi 110002, India"
-                android:textSize="19sp"/>
-            <TextView
-                android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact"
-                android:textSize="19sp"
-                android:textStyle="bold"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="19sp"
-                android:text="+91 72220 15635"/>
+            </LinearLayout>
+
+
         </LinearLayout>
-    </ScrollView>
 
-</android.support.v7.widget.LinearLayoutCompat>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#fdfbfb"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="REVIEWED BY"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sohan Singh"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:textColor="#005237"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sohan Singh"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:textColor="#005237"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sohan Singh"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:textColor="#005237"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/review"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="REVIEW"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="#00b349"
+                    android:gravity="center"
+                    android:background="@drawable/border2"/>
+
+                <Button
+                    android:id="@+id/rate"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="RATE"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

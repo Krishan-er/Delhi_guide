@@ -1,48 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".policemus"
-    android:orientation="vertical">
-    <ScrollView
+    tools:context=".policemus">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-               android:src="@drawable/t2"
-                android:scaleType="fitXY"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold|italic"
-                android:textColor="#f00"
-                android:textSize="25sp"
-                android:text="National Police Museum"/>
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/t2"/>
 
             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="53dp"
+                android:text="National Police Museum"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/view"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="VIEW ON MAP"
+                android:gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="32dp"
+                android:textColor="#00b349"
+                android:background="@drawable/border2"/>
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="CALL US"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="@drawable/btn"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="19sp"
-                android:textStyle="bold"
-                android:text="Localtion: Block No.-4, CGO complex,
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Block No.-4, CGO complex,
 Lodi Road, New Delhi
 Timing: 10.00am To 5:00 pm
 Closed : Saturday AND Sunday
 Attractions: The world of thrill and sensation
 This museum takes us into the world of thrill and sensation as museum contains several thought provoking items all related to police, Crime and Criminals, from the ancient to the modern times.
 Exhibited items are acquired from different states and central police organizations both of Indian and Foreign Origin.
-Photography is allowed with permission. Museum has no admission fees."/>
+Photography is allowed with permission. Museum has no admission fees."
+                    android:textColor="#000"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:typeface="serif"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#fdfbfb"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="REVIEWED BY"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sohan Singh"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:textColor="#005237"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sohan Singh"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:textColor="#005237"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_margin="4dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sohan Singh"
+                    android:textSize="20sp"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="djdkfjdkfjjdkfjddkfjdfkjfddkffjdkfjjd"
+                    android:textColor="#005237"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/review"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="REVIEW"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="#00b349"
+                    android:gravity="center"
+                    android:background="@drawable/border2"/>
+
+                <Button
+                    android:id="@+id/rate"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="RATE"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:background="@drawable/btn"/>
+
+            </LinearLayout>
+
+
+
         </LinearLayout>
 
 
-    </ScrollView>
+    </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
