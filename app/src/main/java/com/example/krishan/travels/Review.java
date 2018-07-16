@@ -1,5 +1,6 @@
 package com.example.krishan.travels;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,11 +17,16 @@ public class Review extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review);
         et=findViewById(R.id.r);
+        button = findViewById(R.id.submit);
         data=et.getText().toString();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+               String reviews = et.getText().toString();
+                Intent intent = new Intent();
+                intent.putExtra("review",reviews);
+                setResult(RESULT_OK,intent);
+                Review.this.finish();
             }
         });
     }

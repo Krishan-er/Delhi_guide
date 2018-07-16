@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class onehot extends AppCompatActivity {
     Button book,call,review,rate;
+    final int REVIEWS = 4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +40,7 @@ public class onehot extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(onehot.this,Review.class);
-                startActivity(i);
+                startActivityForResult(i,REVIEWS);
             }
         });
 

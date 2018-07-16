@@ -113,7 +113,13 @@
             android:label="@string/title_activity_firehotmap" />
         <activity
             android:name=".Inamap"
-            android:label="@string/title_activity_inamap"></activity>
+            android:label="@string/title_activity_inamap" />
+        <activity android:name=".maps" />
+        <activity android:name=".Events" />
+        <activity android:name=".Metro" />
+        <activity android:name=".Taxi" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Aboutus"></activity>
     </application>
 
 </manifest>
