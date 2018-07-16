@@ -39,8 +39,8 @@ public class Ansalmap extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        LatLng sydney = new LatLng(28.5631,77.2246);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in ansal plaza"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

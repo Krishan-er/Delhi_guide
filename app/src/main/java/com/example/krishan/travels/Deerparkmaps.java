@@ -39,8 +39,8 @@ public class Deerparkmaps extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        LatLng sydney = new LatLng(28.555,77.1916);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Deerpark"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
