@@ -90,6 +90,7 @@
         <activity android:name=".Mishotmap" />
         <activity android:name=".Mughalgardenmap" />
         <activity android:name=".TheManor" />
+        <activity android:name=".Review"/>
         <activity
             android:name=".Agnihotmap"
             android:label="@string/title_activity_agnihotmap" />
