@@ -27,6 +27,7 @@ public class Review extends AppCompatActivity {
                 intent.putExtra("review",reviews);
                 setResult(RESULT_OK,intent);
                 Review.this.finish();
+
             }
         });
     }
