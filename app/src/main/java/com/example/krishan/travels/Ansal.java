@@ -22,7 +22,7 @@ public class Ansal extends Activity {
         call = findViewById(R.id.call);
         review = findViewById(R.id.review);
         rate = findViewById(R.id.rate);
-        textView = findViewById(R.id.tvansal);
+        textView = findViewById(R.id.tvagni);
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override

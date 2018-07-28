@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class agnihot extends AppCompatActivity {
-    Button book, call, review, rate;
+    Button viewm, call, review, rate;
     final int REVIEWS = 4;
     TextView textView;
     @Override
@@ -18,13 +18,13 @@ public class agnihot extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agnihot);
 
-        book = findViewById(R.id.view);
+        viewm = findViewById(R.id.view);
         call = findViewById(R.id.call);
         review = findViewById(R.id.review);
         rate = findViewById(R.id.rate);
         textView = findViewById(R.id.tvagni);
 
-        book.setOnClickListener(new View.OnClickListener() {
+        viewm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(agnihot.this, Agnihotmap.class);

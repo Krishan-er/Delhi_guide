@@ -9,46 +9,25 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class splsh extends AppCompatActivity implements Animation.AnimationListener {
+import java.util.Timer;
+import java.util.TimerTask;
 
-    LinearLayout ll;
-    Animation animation;
-    ImageView imageView;
+public class splsh extends AppCompatActivity {
+
+    Timer timer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splsh);
-        imageView=findViewById(R.id.i2);
-        ll=findViewById(R.id.linear);
-        animation = AnimationUtils.loadAnimation(this, R.anim.together );
-
-        ll.setOnClickListener(new View.OnClickListener() {
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
             @Override
-            public void onClick(View v) {
-                ll.startAnimation(animation);
-            }
-        });
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(splsh.this,Splash.class);
+            public void run() {
+                Intent intent =new Intent(splsh.this,Nav.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
             }
-        });
-    }
-
-    @Override
-    public void onAnimationStart(Animation animation) {
-
-    }
-
-    @Override
-    public void onAnimationEnd(Animation animation) {
-
-    }
-
-    @Override
-    public void onAnimationRepeat(Animation animation) {
-
+        },3000);
     }
 }

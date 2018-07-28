@@ -25,7 +25,7 @@ public class Aksardham extends AppCompatActivity {
         call = findViewById(R.id.call);
         review = findViewById(R.id.review);
         rate = findViewById(R.id.rate);
-        textView = findViewById(R.id.tvaksar);
+        textView = findViewById(R.id.tvagni);
 
 
         view.setOnClickListener(new View.OnClickListener() {
